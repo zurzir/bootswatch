@@ -15,9 +15,15 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 60%) !default;   // #999
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #128161 !default;
-$brand-success:         #56cc9d !default;
-$brand-info:            #6cc3d5 !default;
+// $brand-primary:         #128161;
+// $brand-success:         #56cc9d;
+// $brand-info:            #6cc3d5;
+// $brand-warning:         #ffce67;
+// $brand-danger:          #ff7851;
+
+$brand-primary:         #d92e2e !default;
+$brand-success:         #f177ae !default;
+$brand-info:            #d44242 !default;
 $brand-warning:         #ffce67 !default;
 $brand-danger:          #ff7851 !default;
 
@@ -70,7 +76,8 @@ $headings-font-family:    $font-family-base !default;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.2 !default;
 // $headings-color:          #317EAC;
-$headings-color:          #128161 !default;
+// $headings-color:          #128161;
+$headings-color:          $brand-primary !default;
 
 
 //== Iconography
